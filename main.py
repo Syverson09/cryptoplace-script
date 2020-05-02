@@ -14,7 +14,7 @@ while True:
 	path = cwd + "/chromedriver.exe"
 
 	options = webdriver.ChromeOptions()
-	#options.add_argument("--headless")
+	options.add_argument("--headless")
 
 	driver = webdriver.Chrome(path, chrome_options=options)
 	
