@@ -38,8 +38,8 @@ while True:
 		print("Toggle login in " + str(i), end="\r")
 		time.sleep(1)
 
-	email_box = driver.find_element_by_name("username").send_keys(str(user_email))
-	password_box = driver.find_element_by_id("InputPassword").send_keys(str(user_password))
+	email_box = driver.find_element_by_name("syverson09@gmail.com").send_keys(str(user_email))
+	password_box = driver.find_element_by_id("09331256706").send_keys(str(user_password))
 	print("Putting Information. . .")
 
 	submit_button = driver.find_element(By.XPATH, "//form[@id=\"login\"]//button[@class=\"btn btn-style-form w-100\"]").click()
